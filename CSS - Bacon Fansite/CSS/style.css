@@ -1,0 +1,69 @@
+/**********tag selectors********/
+h1{
+  color:red;
+  font-size: 200px;
+}
+
+img:hover{
+  background-color: gold;
+}
+
+body{
+  margin:0;
+  font-size: 100px;
+  font-family: 'Merriweather',serif;
+}
+
+/**********class selectors********/
+
+.bacon{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+.red{
+  height: 100px;
+  width: 100px;
+  background-color:red;
+  position: relative;
+  top: 100px;
+}
+
+.green{
+  height: 100px;
+  width: 100px;
+  background-color:green;
+  position: relative;
+  top: 100px;
+  left:100px;
+}
+
+.container{
+  height:300px;
+  width:300px;
+  background-color: #40DFEF;
+}
+
+.element{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  position:absolute;
+  right:0;
+}
+
+/**********id selectors********/
+#heading {
+  color: blue;
+}
+
+#big{
+  font-size: 100px;
+}
